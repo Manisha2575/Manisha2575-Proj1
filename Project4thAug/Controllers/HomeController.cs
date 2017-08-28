@@ -25,6 +25,7 @@ namespace Project4thAug.Controllers
             var model = new Information();
             return View(model);
         }
+        //Check
         [HttpPost]
         public ActionResult Add(Information model)
         {
